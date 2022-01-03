@@ -1,0 +1,197 @@
+/*Style CSS pour la page HTML du jeu du ShiFuMi*/
+h1
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+body
+{
+    margin: 0 auto;
+    background: url(imgg2/galaxy-3608029_1920.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: black;
+    align-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pierre
+{
+    width: 100px;
+    height: 100px;
+    background: url(imgg2/Pierre2.jpg);
+    background-size: cover;
+    border: solid white 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#pierre:hover
+{
+    opacity: 70%;
+}
+#papier
+{
+    width: 100px;
+    height: 100px;
+    background: url(imgg2/Papier2.jpg);
+    background-size: cover;
+    border: solid white 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#papier:hover
+{
+    opacity: 70%;
+}
+#ciseaux
+{
+    width: 100px;
+    height: 100px;
+    background: url(imgg2/Ciseaux2.jpg);
+    background-size: cover;
+    border: solid white 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#ciseaux:hover
+{
+    opacity: 70%;
+}
+#lézard
+{
+    width: 100px;
+    height: 100px;
+    background: url(imgg2/Lézard2.jpg);
+    background-size: cover;
+    border: solid white 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#lézard:hover
+{
+    opacity: 70%;
+}
+#spock
+{
+    width: 100px;
+    height: 100px;
+    background: url(imgg2/Spock2.jpg);
+    background-size: cover;
+    border: solid white 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#spock:hover
+{
+    opacity: 70%;
+}
+#reset
+{
+    width: 50px;
+    height: 50px;
+    background: url(imgg2/ResetButton.png);
+    background-size: cover;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#reset:hover
+{
+    opacity: 60%;
+}
+#choixElementJoueur
+{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: solid white 0px;
+    border-radius: 50px;
+}
+#choixElementOrdinateur
+{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: solid white 0px;
+    border-radius: 50px;
+}
+#scoreJoueur
+{
+    color: black;
+    font-size: 180%;
+}
+#scoreOrdinateur
+{
+    color: black;
+    font-size: 180%;
+}
+#resultat
+{
+    font-size: 160%;
+}
+#modeDeJeuClassic
+{
+    width: 250px;
+    margin: 0 auto;
+    background-color: none;
+    text-align: center;
+    align-content: center;
+    border: solid white 0px;
+    border-radius: 50px;
+    position: relative;
+    right: 10%;
+    margin-top: 10%;
+}
+#modeDeJeuClassic:hover
+{
+    opacity: 80%;
+}
+#modeDeJeuEnhanced
+{
+    width: 250px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: none;
+    text-align: center;
+    align-content: center;
+    border: solid white 0px;
+    border-radius: 50px;
+    position: relative;
+    left: 10%;
+    margin-top: 10%;
+}
+#modeDeJeuEnhanced:hover
+{
+    opacity: 80%;
+}
+#menu
+{
+    background-color: none;
+    position: fixed;
+    right: 5px;
+    bottom: 1px;
+}
+#menu:hover
+{
+    opacity: 80%;
+}
+#piedPage
+{
+    margin: 0 auto;
+    color: blanchedalmond;
+    background-color: none;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 5px;
+    bottom: 0px;
+}
+#aideJoueur
+{
+    width: 180px;
+    margin: 0 auto;
+    position: fixed;
+    left: 1px;
+    bottom: 1px;
+    border: solid 0px;
+    border-radius: 70px;
+}
